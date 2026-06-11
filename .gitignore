@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+data/index.json
+data/
+*.local
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.vite/
+worker/node_modules/
+worker/dist/

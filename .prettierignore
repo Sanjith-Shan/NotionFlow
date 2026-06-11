@@ -1,0 +1,7 @@
+node_modules
+dist
+coverage
+data
+fixtures
+package-lock.json
+worker/src/corpus.json
