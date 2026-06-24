@@ -1,0 +1,79 @@
+{
+  "cases": [
+    {
+      "id": "case-pricing-pro-tier",
+      "question": "What did we price the Pro tier at?",
+      "expectAnswerIncludes": ["$49", "per seat"],
+      "expectSourceTitles": ["Pricing Decision: Pro Tier", "Q3 Planning Meeting"]
+    },
+    {
+      "id": "case-p99-latency-target",
+      "question": "What is the p99 latency target for the query engine on cached queries?",
+      "expectAnswerIncludes": ["200ms"],
+      "expectSourceTitles": [
+        "RFC: Query Engine Architecture",
+        "Project Atlas: Real-time Dashboards"
+      ]
+    },
+    {
+      "id": "case-postgres-over-dynamodb",
+      "question": "Why did we choose Postgres over DynamoDB?",
+      "expectAnswerIncludes": ["postgres", "relational"],
+      "expectSourceTitles": ["RFC: Choosing Postgres over DynamoDB"]
+    },
+    {
+      "id": "case-q3-planning-action-items",
+      "question": "What were the action items from the Q3 planning meeting?",
+      "expectAnswerIncludes": ["index", "bundle", "broker"],
+      "expectSourceTitles": ["Q3 Planning Meeting"]
+    },
+    {
+      "id": "case-june-12-outage",
+      "question": "What caused the June 12 outage and how long did it last?",
+      "expectAnswerIncludes": ["connection pool", "47 minutes"],
+      "expectSourceTitles": ["Postmortem: June 12 Outage"]
+    },
+    {
+      "id": "case-api-versioning",
+      "question": "How does Meridian version its public API?",
+      "expectAnswerIncludes": ["header"],
+      "expectSourceTitles": ["API Versioning Strategy"]
+    },
+    {
+      "id": "case-public-api-rate-limit",
+      "question": "What is the rate limit for the public API?",
+      "expectAnswerIncludes": ["100 requests", "per minute"],
+      "expectSourceTitles": ["Rate Limiting Design"]
+    },
+    {
+      "id": "case-caching-redis-ttl",
+      "question": "What caching technology and TTL do we use for dashboard query results?",
+      "expectAnswerIncludes": ["redis", "60"],
+      "expectSourceTitles": ["Caching Layer Design"]
+    },
+    {
+      "id": "case-free-tier-event-limit",
+      "question": "What is the Free tier event limit?",
+      "expectAnswerIncludes": ["1,000 events"],
+      "expectSourceTitles": ["Pricing Decision: Pro Tier"]
+    },
+    {
+      "id": "case-index-improvement",
+      "question": "How much did the composite index improve the slow aggregation query?",
+      "expectAnswerIncludes": ["80ms", "composite index"],
+      "expectSourceTitles": ["Database Indexing Improvements"]
+    },
+    {
+      "id": "case-embedding-dimension",
+      "question": "What embedding dimension do we use for vector search?",
+      "expectAnswerIncludes": ["1536"],
+      "expectSourceTitles": ["Embeddings and Vector Search Design"]
+    },
+    {
+      "id": "case-top-customer-request",
+      "question": "What is the most requested customer feature?",
+      "expectAnswerIncludes": ["csv export"],
+      "expectSourceTitles": ["Customer Feedback Summary: Q2", "Customer Call: Northwind Analytics"]
+    }
+  ]
+}
